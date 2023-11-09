@@ -3,6 +3,7 @@ package shopApp.duke.shop;
 import shopApp.duke.choice.Customer;
 import shopApp.duke.shop.lessons.Lesson1Welcome;
 import shopApp.duke.shop.lessons.Lesson3_1;
+import shopApp.duke.shop.lessons.Lesson3_OperatorPrecendence;
 import shopApp.duke.shop.lessons.Lesson3_primitiveTypes;
 
 public class ShopApp {
@@ -16,7 +17,9 @@ public class ShopApp {
 
         // Primitive types
         //Lesson3_primitiveTypes lesson3 = new Lesson3_primitiveTypes();
-        //System.out.println(lesson3.toString());
+        //System.out.println(lesson3);
 
+        // Precedence
+        Lesson3_OperatorPrecendence.precedenceExample();
     }
 }
