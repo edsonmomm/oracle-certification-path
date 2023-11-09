@@ -8,7 +8,7 @@ public class Lesson3_primitiveTypes {
 
     // integral types
     byte varByte = 1;
-    int varInt1 = 2; int varInt2 = 3;
+    int varInt1 = 2;
     short varShort = 4;
     long varLong = 5;
 
