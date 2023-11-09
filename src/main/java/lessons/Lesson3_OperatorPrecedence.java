@@ -1,4 +1,4 @@
-package shopApp.duke.shop.lessons;
+package lessons;
 
 /**
  * Explaining how operator precedence works <br>

@@ -1,4 +1,4 @@
-package shopApp.duke.shop.lessons;
+package lessons;
 
 import shopApp.duke.choice.Customer;
 

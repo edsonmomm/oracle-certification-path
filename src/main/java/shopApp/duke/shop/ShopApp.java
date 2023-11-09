@@ -1,10 +1,10 @@
 package shopApp.duke.shop;
 
+import lessons.Lesson3_primitiveTypes;
 import shopApp.duke.choice.Customer;
-import shopApp.duke.shop.lessons.Lesson1Welcome;
-import shopApp.duke.shop.lessons.Lesson3_1;
-import shopApp.duke.shop.lessons.Lesson3_OperatorPrecedence;
-import shopApp.duke.shop.lessons.Lesson3_primitiveTypes;
+import lessons.Lesson1Welcome;
+import lessons.Lesson3_1;
+import lessons.Lesson3_OperatorPrecedence;
 
 public class ShopApp {
     public static void main(String[] args) {
@@ -16,8 +16,9 @@ public class ShopApp {
         customer1.printGreetings();
 
         // Primitive types
-        //Lesson3_primitiveTypes lesson3 = new Lesson3_primitiveTypes();
-        //System.out.println(lesson3);
+        Lesson3_primitiveTypes lesson3 = new Lesson3_primitiveTypes();
+        // Uses an override of toString to print all variables
+        System.out.println(lesson3);
 
         // Precedence
         Lesson3_OperatorPrecedence.precedenceExample1();

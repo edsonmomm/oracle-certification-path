@@ -1,4 +1,4 @@
-package shopApp.duke.shop.lessons;
+package lessons;
 
 /**
  * Content from lesson "What is a Java Program"
