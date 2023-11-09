@@ -11,9 +11,15 @@ package shopApp.duke.shop.lessons;
  */
 public class Lesson3_OperatorPrecendence {
 
-    public static void precedenceExample() {
+    public static void precedenceExample1() {
         System.out.println("solving: int c = 25 - 5 * 4 / 2 - 10 + 4");
         int c = 25 - 5 * 4 / 2 - 10 + 4;
+        System.out.println("Result: " + c);
+    }
+
+    public static void precedenceExample2() {
+        System.out.println("solving: (((25 - 5) * 4) / (2-10)) + 4");
+        int c = (((25 - 5) * 4) / (2-10)) + 4;
         System.out.println("Result: " + c);
     }
 }

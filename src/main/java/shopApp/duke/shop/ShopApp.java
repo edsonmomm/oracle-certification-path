@@ -20,6 +20,7 @@ public class ShopApp {
         //System.out.println(lesson3);
 
         // Precedence
-        Lesson3_OperatorPrecendence.precedenceExample();
+        Lesson3_OperatorPrecendence.precedenceExample1();
+        Lesson3_OperatorPrecendence.precedenceExample2();
     }
 }
