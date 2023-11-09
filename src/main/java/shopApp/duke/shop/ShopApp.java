@@ -3,7 +3,7 @@ package shopApp.duke.shop;
 import shopApp.duke.choice.Customer;
 import shopApp.duke.shop.lessons.Lesson1Welcome;
 import shopApp.duke.shop.lessons.Lesson3_1;
-import shopApp.duke.shop.lessons.Lesson3_OperatorPrecendence;
+import shopApp.duke.shop.lessons.Lesson3_OperatorPrecedence;
 import shopApp.duke.shop.lessons.Lesson3_primitiveTypes;
 
 public class ShopApp {
@@ -20,7 +20,8 @@ public class ShopApp {
         //System.out.println(lesson3);
 
         // Precedence
-        Lesson3_OperatorPrecendence.precedenceExample1();
-        Lesson3_OperatorPrecendence.precedenceExample2();
+        Lesson3_OperatorPrecedence.precedenceExample1();
+        Lesson3_OperatorPrecedence.precedenceExample2();
+        Lesson3_OperatorPrecedence.precedenceExample3();
     }
 }
