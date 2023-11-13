@@ -10,3 +10,4 @@ It contains the excercises for [Java Explorer]("https://github.com/stars/edsonmo
 | String Variable      | [Lesson3_1.java](src/main/java/lessons/Lesson3_1.java)                                    |
 | Primitive Types      | [Lesson3_primitiveTypes.java](src/main/java/lessons/Lesson3_primitiveTypes.java)          |
 | Operator Precendence | [Lesson3_OperatorPrecendence.java](src/main/java/lessons/Lesson3_OperatorPrecedence.java) |
+| Operator Demo        | [Lesson3_2.java](src/main/java/lessons/Lesson3_2.java)                                    |

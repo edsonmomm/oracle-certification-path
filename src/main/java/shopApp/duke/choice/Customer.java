@@ -12,6 +12,6 @@ public class Customer {
     }
 
     public void printGreetings() {
-        System.out.println("Greetings " + name);
+        System.out.println("Greetings " + getName());
     }
 }

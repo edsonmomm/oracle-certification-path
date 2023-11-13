@@ -1,10 +1,7 @@
 package shopApp.duke.shop;
 
-import lessons.Lesson3_primitiveTypes;
+import lessons.*;
 import shopApp.duke.choice.Customer;
-import lessons.Lesson1Welcome;
-import lessons.Lesson3_1;
-import lessons.Lesson3_OperatorPrecedence;
 
 public class ShopApp {
     public static void main(String[] args) {
@@ -24,5 +21,8 @@ public class ShopApp {
         Lesson3_OperatorPrecedence.precedenceExample1();
         Lesson3_OperatorPrecedence.precedenceExample2();
         Lesson3_OperatorPrecedence.precedenceExample3();
+
+        // Operators
+        Lesson3_2.executeOperatorDemo();
     }
 }
