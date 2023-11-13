@@ -3,11 +3,6 @@ package shopApp.duke.choice;
 public class Clothing {
     String description;
     double price;
-
-    public double getPrice() {
-        return price;
-    }
-
     String size = "M";
 
     public void setDescription(String description) {
@@ -20,6 +15,12 @@ public class Clothing {
 
     public void setSize(String size) {
         this.size = size;
+    }
+    public double getPrice() {
+        return price;
+    }
+    public String getSize() {
+        return size;
     }
 
     @Override

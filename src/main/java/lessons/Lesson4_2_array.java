@@ -1,9 +1,10 @@
 package lessons;
 
 import shopApp.duke.choice.Clothing;
+import shopApp.duke.choice.Customer;
 
 /**
- * Lesson 4-2: Working with arrays.
+ * Lesson 4-2 into 4-4: Working with arrays.
  * Will some clothing for the customer and print the total cost
  * Different from the lesson, it was implemented a method to calculate the clothing cost value for each clothing piece
  */
@@ -12,6 +13,10 @@ public class Lesson4_2_array {
     // Create some clothes
 
     public static void execureArrayDemo() {
+        Customer customer1 = Lesson3_1.createCustomerAndPrintName("Pinky");
+        // Sets customer clothing size
+        Lesson4_1_switch.executeSwitchDemo(customer1, 3);
+
         System.out.println("-----------------------------------------------");
         System.out.println("Lesson 4-2: Array Demo");
         Clothing item1 = new Clothing();
@@ -22,18 +27,34 @@ public class Lesson4_2_array {
         item1.setSize("M");
 
         item2.setDescription("Orange T-shirt");
-        item2.setPrice(10.5);
+        item2.setPrice(13.5);
         item2.setSize("S");
 
         Clothing[] clothingList = {item1, item2, item2};
 
         double tax = 0.2;
         double total = 0.0;
-        for (Clothing clothing : clothingList) {
-            total += clothing.getCostValue(tax);
+        for (Clothing item : clothingList) {
+            System.out.println("Item:" + item);
+            total += item.getCostValue(tax);
         }
-
         System.out.println("Total of pieces: " + clothingList.length);
+        System.out.println("Total cost: " + total);
+
+        System.out.println("Now, only for clothes that match customers size, and total less than $15.");
+        total = 0.0;
+        int itemSameSize = 0;
+        for (Clothing item : clothingList) {
+            if (customer1.getSize().equals(item.getSize())) {
+                System.out.println("Item:" + item);
+                total += item.getCostValue(tax);
+                itemSameSize++;
+            }
+            System.out.println("Total cost2: " + total);
+            if (total >= 15)
+                break;
+        }
+        System.out.println("Total of pieces: " + itemSameSize);
         System.out.println("Total cost: " + total);
     }
 }
