@@ -26,4 +26,8 @@ public class Clothing {
     public String toString() {
         return description + ";" + price + ";" + size;
     }
+
+    public double getCostValue(double tax) {
+        return getPrice() * (1+tax);
+    }
 }
