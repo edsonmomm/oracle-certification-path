@@ -24,6 +24,26 @@ public class Customer {
         System.out.println("Greetings " + getName());
     }
 
+    /**
+     * Define the customer clothing new size from the value of measurement
+     * @param measurement int
+     */
+    public void measure(int measurement) {
+        switch (measurement) {
+            case 1: case 2: case 3 :
+                setSize("S");
+                break;
+            case 4: case 5: case 6 :
+                setSize("M");
+                break;
+            case 7: case 8: case 9 :
+                setSize("L");
+                break;
+            default:
+                setSize("X");
+        }
+    }
+
     public String toString() {
         return "Name:"+getName()+";size:"+getSize();
     }

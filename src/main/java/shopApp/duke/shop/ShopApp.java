@@ -29,8 +29,10 @@ public class ShopApp {
         // Operators
         Lesson3_2.executeOperatorDemo();
 
-        int measurement = 4;
         // Switch - set customer size
+        System.out.println("-----------------------------------------------");
+        System.out.println("Lesson 4-1: Switch Demo");
+        int measurement = 4;
         Lesson4_1_switch.executeSwitchDemo(customer1, measurement);
         System.out.println(customer1);
 
