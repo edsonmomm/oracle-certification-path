@@ -24,7 +24,7 @@ public class Clothing {
     }
 
     public void setPrice(double price) {
-        this.price = (price > MIN_PRICE ? price : MIN_PRICE);
+        this.price = (Math.max(price, MIN_PRICE));
     }
 
     public void setSize(String size) {
