@@ -10,6 +10,7 @@ public class Lesson3_2 {
     public static void executeOperatorDemo() {
         System.out.println("-----------------------------------------------");
         System.out.println("Lesson 3-2: Operator Demo");
+        double total;
 
         Clothing item1 = new Clothing();
         Clothing item2 = new Clothing();
