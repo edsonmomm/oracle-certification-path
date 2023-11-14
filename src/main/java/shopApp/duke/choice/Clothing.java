@@ -16,15 +16,15 @@ public class Clothing {
      * Lesson 5-1 - Apply encapsulation
      * Clothing has a mininum price
      */
-    final double MININUM_PRICE = 10;
-    final double tax = 0.2;
+    public static final double MIN_PRICE = 10;
+    public static final double tax = 0.2;
 
     public void setDescription(String description) {
         this.description = description;
     }
 
     public void setPrice(double price) {
-        this.price = (price > MININUM_PRICE ? price : MININUM_PRICE);
+        this.price = (price > MIN_PRICE ? price : MIN_PRICE);
     }
 
     public void setSize(String size) {

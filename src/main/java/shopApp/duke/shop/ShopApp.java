@@ -51,5 +51,8 @@ public class ShopApp {
 
         // Constructors
         Lesson6_1_Constructor.executeConstructorDemo();
+
+        // Static
+        Lesson6_3_static.executeStaticDemo();
     }
 }
