@@ -5,6 +5,13 @@ public class Clothing {
     double price;
     String size = "M";
 
+    public Clothing(){}
+    public Clothing(String description, double price, String size) {
+        this.description = description;
+        this.price = price;
+        this.size = size;
+    }
+
     /*
      * Lesson 5-1 - Apply encapsulation
      * Clothing has a mininum price

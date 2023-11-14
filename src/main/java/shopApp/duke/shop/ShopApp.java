@@ -48,5 +48,8 @@ public class ShopApp {
 
         // Objects
         Lesson5_3_Objects.executeLessonObjectDemo();
+
+        // Constructors
+        Lesson6_1_Constructor.executeConstructorDemo();
     }
 }

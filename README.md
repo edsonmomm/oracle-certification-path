@@ -16,3 +16,4 @@ It contains the excercises for [Java Explorer]("https://github.com/stars/edsonmo
 | Encapsulation Demo   | [Lesson5_1_Encapsulation.java](src/main/java/lessons/Lesson5_1_Encapsulation.java)        |
 | Overload Demo        | [Lesson5_2_Overload.java](src/main/java/lessons/Lesson5_2_Overload.java)                  |
 | Objects Demo         | [Lesson5_3_Objects.java](src/main/java/lessons/Lesson5_3_Objects.java)                    |
+| Constructor Demo     | [Lesson6_1_Constructor.java](src/main/java/lessons/Lesson6_1_Constructor.java)            |

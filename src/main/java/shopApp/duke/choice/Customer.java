@@ -6,6 +6,16 @@ public class Customer {
 
     private Clothing[] items;
 
+    public Customer() {}
+    public Customer(String name) {
+        this.name = name;
+    }
+
+    public Customer(String name, int measurement) {
+        this.name = name;
+        measure(measurement);
+    }
+
     public String getSize() {
         return size;
     }
@@ -61,7 +71,10 @@ public class Customer {
         return size.equals(sizeToCompare);
     }
     public String toString() {
-        return "Name:"+getName()+";size:"+getSize();
+        int clothingAmount = 0;
+        if (items != null)
+            clothingAmount = items.length;
+        return "Name:"+getName()+";size:"+getSize()+";clothingAmount:"+clothingAmount;
     }
 
 
