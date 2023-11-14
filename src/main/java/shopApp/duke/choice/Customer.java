@@ -44,6 +44,9 @@ public class Customer {
         }
     }
 
+    public boolean fit(String sizeToCompare) {
+        return size.equals(sizeToCompare);
+    }
     public String toString() {
         return "Name:"+getName()+";size:"+getSize();
     }

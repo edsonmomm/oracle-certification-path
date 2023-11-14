@@ -35,6 +35,7 @@ public class ShopApp {
         int measurement = 4;
         Lesson4_1_switch.executeSwitchDemo(customer1, measurement);
         System.out.println(customer1);
+        System.out.println("Fit to S? " + customer1.fit("S"));
 
         // Array
         Lesson4_2_array.execureArrayDemo();
