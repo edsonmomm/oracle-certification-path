@@ -63,4 +63,14 @@ public class Customer {
     public String toString() {
         return "Name:"+getName()+";size:"+getSize();
     }
+
+
+    public double getTotalClothingCost() {
+        double total = 0.0;
+        for (Clothing item : this.getItems()) {
+            System.out.println("Item:" + item);
+            total += item.getCostValue();
+        }
+        return total;
+    }
 }

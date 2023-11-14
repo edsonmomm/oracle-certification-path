@@ -45,5 +45,8 @@ public class ShopApp {
 
         // Overload
         Lesson5_2_Overload.executeOverloadDemo();
+
+        // Objects
+        Lesson5_3_Objects.executeLessonObjectDemo();
     }
 }

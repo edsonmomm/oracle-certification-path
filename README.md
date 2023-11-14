@@ -15,3 +15,4 @@ It contains the excercises for [Java Explorer]("https://github.com/stars/edsonmo
 | Array Demo           | [Lesson4_2_array.java](src/main/java/lessons/Lesson4_2_array.java)                        |
 | Encapsulation Demo   | [Lesson5_1_Encapsulation.java](src/main/java/lessons/Lesson5_1_Encapsulation.java)        |
 | Overload Demo        | [Lesson5_2_Overload.java](src/main/java/lessons/Lesson5_2_Overload.java)                  |
+| Objects Demo         | [Lesson5_3_Objects.java](src/main/java/lessons/Lesson5_3_Objects.java)                    |

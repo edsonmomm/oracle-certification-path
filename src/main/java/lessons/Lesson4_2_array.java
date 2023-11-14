@@ -30,20 +30,16 @@ public class Lesson4_2_array {
         item2.setPrice(13.5);
         item2.setSize("S");
 
-        Clothing[] clothingList = {item1, item2, item2};
+        customer1.setItems(new Clothing[] {item1, item2, item2});
 
-        double total = 0.0;
-        for (Clothing item : clothingList) {
-            System.out.println("Item:" + item);
-            total += item.getCostValue();
-        }
-        System.out.println("Total of pieces: " + clothingList.length);
+        double total = customer1.getTotalClothingCost();
+        System.out.println("Total of pieces: " + customer1.getItems().length);
         System.out.println("Total cost: " + total);
 
         System.out.println("Now, only for clothes that match customers size, and total less than $15.");
         total = 0.0;
         int itemSameSize = 0;
-        for (Clothing item : clothingList) {
+        for (Clothing item : customer1.getItems()) {
             if (customer1.getSize().equals(item.getSize())) {
                 System.out.println("Item:" + item);
                 total += item.getCostValue();
