@@ -39,5 +39,11 @@ public class ShopApp {
 
         // Array
         Lesson4_2_array.execureArrayDemo();
+
+        // Encapsulation
+        Lesson5_1_Encapsulation.executeEncaptulationDemo();
+
+        // Overload
+        Lesson5_2_Overload.executeOverloadDemo();
     }
 }

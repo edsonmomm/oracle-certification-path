@@ -32,11 +32,10 @@ public class Lesson4_2_array {
 
         Clothing[] clothingList = {item1, item2, item2};
 
-        double tax = 0.2;
         double total = 0.0;
         for (Clothing item : clothingList) {
             System.out.println("Item:" + item);
-            total += item.getCostValue(tax);
+            total += item.getCostValue();
         }
         System.out.println("Total of pieces: " + clothingList.length);
         System.out.println("Total cost: " + total);
@@ -47,7 +46,7 @@ public class Lesson4_2_array {
         for (Clothing item : clothingList) {
             if (customer1.getSize().equals(item.getSize())) {
                 System.out.println("Item:" + item);
-                total += item.getCostValue(tax);
+                total += item.getCostValue();
                 itemSameSize++;
             }
             System.out.println("Total cost2: " + total);

@@ -13,3 +13,5 @@ It contains the excercises for [Java Explorer]("https://github.com/stars/edsonmo
 | Operator Demo        | [Lesson3_2.java](src/main/java/lessons/Lesson3_2.java)                                    |
 | Flow Control Demo    | [Lesson4_1_switch.java](src/main/java/lessons/Lesson4_1_switch.java)                      |
 | Array Demo           | [Lesson4_2_array.java](src/main/java/lessons/Lesson4_2_array.java)                        |
+| Encapsulation Demo   | [Lesson5_1_Encapsulation.java](src/main/java/lessons/Lesson5_1_Encapsulation.java)        |
+| Overload Demo        | [Lesson5_2_Overload.java](src/main/java/lessons/Lesson5_2_Overload.java)                  |

@@ -5,12 +5,19 @@ public class Clothing {
     double price;
     String size = "M";
 
+    /*
+     * Lesson 5-1 - Apply encapsulation
+     * Clothing has a mininum price
+     */
+    final double MININUM_PRICE = 10;
+    final double tax = 0.2;
+
     public void setDescription(String description) {
         this.description = description;
     }
 
     public void setPrice(double price) {
-        this.price = price;
+        this.price = (price > MININUM_PRICE ? price : MININUM_PRICE);
     }
 
     public void setSize(String size) {
@@ -25,10 +32,15 @@ public class Clothing {
 
     @Override
     public String toString() {
-        return description + ";" + price + ";" + size;
+        return "description" + description + ";price:" + price + ";size:" + size;
     }
 
-    public double getCostValue(double tax) {
+    /**
+     * Lesson 5-1 - Apply encapsulation
+     * Tax will be within the Cloting
+     * @return The cost value (price*tax)
+     */
+    public double getCostValue() {
         return getPrice() * (1+tax);
     }
 }

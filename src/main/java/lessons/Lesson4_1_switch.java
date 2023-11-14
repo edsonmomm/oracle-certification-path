@@ -14,6 +14,6 @@ public class Lesson4_1_switch {
      */
     public static void executeSwitchDemo(Customer customer, int measurement) {
         // The switch was moved to customer class
-        customer.measure(measurement);
+        customer.setSize(measurement);
     }
 }

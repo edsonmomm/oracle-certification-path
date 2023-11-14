@@ -10,7 +10,6 @@ public class Lesson3_2 {
     public static void executeOperatorDemo() {
         System.out.println("-----------------------------------------------");
         System.out.println("Lesson 3-2: Operator Demo");
-        double tax = 0.2, total;
 
         Clothing item1 = new Clothing();
         Clothing item2 = new Clothing();
@@ -28,7 +27,7 @@ public class Lesson3_2 {
         System.out.println(item2);
 
         //total = (item1.getPrice() + (item2.getPrice() * 2));
-        total = (item1.getCostValue(tax) + (item2.getCostValue(tax) * 2));
+        total = (item1.getCostValue() + (item2.getCostValue() * 2));
         // take the tax
         //total = total + (total * tax);
         System.out.println("Total of 2 shirts + 1 jacked: " + total);
