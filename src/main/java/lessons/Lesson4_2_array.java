@@ -10,8 +10,6 @@ import shopApp.duke.choice.Customer;
  */
 public class Lesson4_2_array {
 
-    // Create some clothes
-
     public static void execureArrayDemo() {
         Customer customer1 = Lesson3_1.createCustomerAndPrintName("Pinky");
         // Sets customer clothing size
