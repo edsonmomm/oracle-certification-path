@@ -86,4 +86,44 @@ public class Customer {
         }
         return total;
     }
+
+    public double getAverageCost() {
+        double total = 0.0;
+        int count = 0;
+        for (Clothing item : this.getItems()) {
+            count++;
+            total += item.getCostValue();
+        }
+        return calculateAverage(count, total);
+    }
+
+    /**
+     * Return the average for cloving that fits the customer
+     * @return average
+     */
+    public double getAverageCostFit() {
+        double total = 0.0;
+        int count = 0;
+        for (Clothing item : this.getItems()) {
+            if (this.fit(item.getSize())) {
+                count++;
+                total += item.getCostValue();
+            }
+        }
+        return calculateAverage(count, total);
+    }
+
+    private double calculateAverage(int count, double total) {
+        double average = 0.0;
+        try {
+            System.out.println("total:" + total);
+            System.out.println("count:" + count);
+            // To force the division by zero (when total as double, return NaN - not a number)
+            // As example, let's force the division using "int"
+            average = ((int) total) / count;
+        } catch (ArithmeticException e) {
+            System.out.println("No items found");
+        }
+        return average;
+    }
 }

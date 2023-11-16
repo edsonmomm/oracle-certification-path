@@ -17,4 +17,6 @@ It contains the excercises for [Java Explorer]("https://github.com/stars/edsonmo
 | Overload Demo        | [Lesson5_2_Overload.java](src/main/java/lessons/Lesson5_2_Overload.java)                  |
 | Objects Demo         | [Lesson5_3_Objects.java](src/main/java/lessons/Lesson5_3_Objects.java)                    |
 | Constructor Demo     | [Lesson6_1_Constructor.java](src/main/java/lessons/Lesson6_1_Constructor.java)            |
-|Static Demo           | [Lesson6_3_static.java](src/main/java/lessons/Lesson6_3_static.java)                      |
+| Static Demo          | [Lesson6_3_static.java](src/main/java/lessons/Lesson6_3_static.java)                      |
+| Exception Demo       | [Lesson7_1_Exception.java](src/main/java/lessons/Lesson7_1_Exception.java)                |
+| Sort Demo (Abstract) | [Lesson8_2_Sort.java](src/main/java/lessons/Lesson8_2_Sort.java)                          |

@@ -1,6 +1,6 @@
 package shopApp.duke.choice;
 
-public class Clothing {
+public class Clothing implements Comparable<Clothing>{
     String description;
     double price;
     String size = "M";
@@ -39,7 +39,7 @@ public class Clothing {
 
     @Override
     public String toString() {
-        return "description" + description + ";price:" + price + ";size:" + size;
+        return "description:" + description + ";price:" + price + ";size:" + size;
     }
 
     /**
@@ -49,5 +49,15 @@ public class Clothing {
      */
     public double getCostValue() {
         return getPrice() * (1+tax);
+    }
+
+    /**
+     * Lesson 8-2
+     * @param c the object to be compared.
+     * @return negative if smaller, positive if greater or zero if equals
+     */
+    @Override
+    public int compareTo(Clothing c) {
+        return this.description.compareTo(c.description);
     }
 }

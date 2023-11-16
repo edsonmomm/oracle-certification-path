@@ -54,5 +54,11 @@ public class ShopApp {
 
         // Static
         Lesson6_3_static.executeStaticDemo();
+
+        // Exception
+        Lesson7_1_Exception.executeExceptionDemo();
+
+        // Sort using comparable
+        Lesson8_2_Sort.executeSortDemo();
     }
 }
